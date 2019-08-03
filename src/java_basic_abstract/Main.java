@@ -5,6 +5,10 @@ public class Main extends Player {
 	public static void main(String[] args) {
 		Main main = new Main();
 		main.play("love someone");
+		Dog dog = new Dog();
+		Cat cat = new Cat();
+		dog.crying();
+		cat.crying();
 	}
 
 	@Override
@@ -23,4 +27,5 @@ public class Main extends Player {
 		System.out.println("stop");
 	}
 
+	
 }
